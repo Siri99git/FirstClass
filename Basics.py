@@ -152,10 +152,6 @@ anyvariable=None
 print(type(anyvariable))
 
 
-#replace string
-stringforreplace="Hello World"
-print("replace string: ", stringforreplace.replace("World", "Python"))
-
 #and and or operators
 
 andvariable1=True
