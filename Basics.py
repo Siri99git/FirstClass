@@ -1,5 +1,6 @@
 #Data types in python
 
+
 #integer
 
 intvariable=10
@@ -132,8 +133,41 @@ print("substring() method: ", setvariableforsubstring[0:5])
 stringforcharactercount="Hello World"
 print("stringcharactercount() method: ", len(stringforcharactercount))
 
+print("stringcharactercount() method: ", len(stringforcharactercount.split(" ")))
+print("stringcharactercount() method: ", len(stringforcharactercount.split("o")))
+
+print("Last character: ", stringforcharactercount[-1]) #last character
 
 
+#any
+
+anyvariable="Testing any data type"
+anyvariable=10
+print(type(anyvariable))
+anyvariable={1,2,3,4}
+print(anyvariable)
+print(type(anyvariable))
+
+anyvariable=None
+print(type(anyvariable))
 
 
+#replace string
+stringforreplace="Hello World"
+print("replace string: ", stringforreplace.replace("World", "Python"))
+
+#and and or operators
+
+andvariable1=True
+andvariable2=False
+
+if andvariable1 and andvariable2:
+    print("Both are True")
+else:
+    print("One of them is False")   
+
+if andvariable1 or andvariable2:
+    print("One of them is True")    
+else:           
+    print("Both are False")
 
