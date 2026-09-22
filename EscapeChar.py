@@ -15,3 +15,5 @@ print("She said \"Hello\"")
 
 # 6. Carriage return
 print("Hello\rHi")
+
+print(range(5))
