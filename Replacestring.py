@@ -1,5 +1,5 @@
 s = "hello world"
-old = "world"
+old = "hello"
 new = "Python"
 
 result = ""
@@ -24,4 +24,4 @@ print(result)
 
 #replace string
 stringforreplace="Hello World"
-print("replace string: ", stringforreplace.replace("World", "Python"))
+print("replace string: ", stringforreplace.replace("Hello", "Python"))
