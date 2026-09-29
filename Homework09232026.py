@@ -38,5 +38,7 @@ for i in range(5, 0, -1):
                                                     #           *******  
 rows = 5
 for i in range(1, rows ):    # i = 1,2,3,4
+    print(range(rows - i))
+    print(2 * i - 1)
     print(' ' * (rows - i) + '*' * (2 * i - 1))
        

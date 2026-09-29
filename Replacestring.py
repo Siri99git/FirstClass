@@ -11,12 +11,12 @@ while i < len(s):
     if s[i:i + len(old)] == old:
         result += new
         i += len(old)
-        print("IF"+result)
+        print("IF "+result)
 
     else:
         result += s[i]
         i += 1
-        print("ELSE"+result)
+        print("ELSE "+result)
 
         
 print(result)
